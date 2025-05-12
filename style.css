@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1000px;
+    background-color: #037546;
+    /* height: 600px; */
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.item1,
+.item2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.item1 {
+    background-color: #41418f;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item2 {
+    background-color: #e69926;
+    height: 250px;
+    width: 250px;
+}
